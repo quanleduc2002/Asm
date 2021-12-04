@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ChucNangActivityFacebook">
+<EditText
+    android:gravity="center"
+    android:hint="Nhập vào tiêu đề"
+    android:id="@+id/edtTitlte"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+</EditText>
+    <EditText
+        android:gravity="center"
+        android:hint="Nhập mô tả"
+        android:id="@+id/edtDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+    <EditText
+        android:gravity="center"
+        android:hint="Nhập đường dẫn"
+        android:id="@+id/edtUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+<Button
+    android:layout_gravity="center"
+    android:id="@+id/btnShareLink"
+    android:text="Share Link"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+</Button>
+    <ImageView
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:id="@+id/imgHinh">
+
+    </ImageView>
+    <Button
+        android:text="Share Image"
+        android:id="@+id/btnshareImg"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+    <VideoView
+        android:id="@+id/ViewVideo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"></VideoView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+android:layout_marginLeft="50dp"
+            android:text="Pick Video"
+            android:id="@+id/btnclickvideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+        <Button
+            android:layout_marginLeft="110dp"
+            android:text="Share Video"
+            android:id="@+id/btnshareVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+    </LinearLayout>
+</LinearLayout>
